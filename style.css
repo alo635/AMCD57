@@ -1,0 +1,45 @@
+#accroche {
+    height: 100%;
+    background-color: rgb(36, 36, 70);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#accroche h2 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 34px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.lien {
+    color: white;
+    background: linear-gradient(45deg, red,blue);
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+.lien:hover {
+    background: rgb(245,245,245);
+    color: rgb(40,40,40);
+}
+#exemple {
+    background-color: white;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#exemple h2 {
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: rgb(40,40,40);
+}
+#exemple ul {
+    display: flex;
+    list-style: none;
+}
